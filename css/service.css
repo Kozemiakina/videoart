@@ -1,0 +1,60 @@
+/**
+Service
+ */
+.service{
+    height: 1050px;
+    color: #00adef;
+    font-size: 24px;
+}
+.service span{
+    text-transform: uppercase;
+    color: #4e5653;
+    display: inline-block;
+    float: right;
+    width: 98%;
+    font-family: "Tahoma R";
+}
+.service__context,.service__context__right{
+    display: inline-block;
+    float: left;
+    width: 47%;
+    height: 150px;
+    color: #4e5653;
+    font-size: 14px;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.service__context__right{
+    float: right;
+}
+.service__context span,.service__context__right span{
+    color: #00adef;
+    margin-bottom: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+.service__context__text{
+    display: inline-block;
+    float: left;
+    width: 61.4%;
+    text-align: justify;
+}
+.service img{
+    display: inline-block;
+    float: left;
+    max-width: 180px;
+    margin-right: 20px;
+}
+.service a{
+    display: inline-block;
+    color: #00adef;
+    font-family: "Tahoma R";
+    margin-top: 15px;
+    font-size: 16px;
+}
+/**
+Count
+ */
+.count{
+    padding-bottom: 80px;
+}

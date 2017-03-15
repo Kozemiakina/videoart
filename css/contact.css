@@ -1,0 +1,16 @@
+.map{
+    font-size: 24px;
+    color: #00adef;
+    font-family: "Tahoma R";
+}
+.map span{
+    text-transform: uppercase;
+    color: #4e5653;
+    display: inline-block;
+    width: 98%;
+    float: right;
+}
+.map__context{
+    margin-top: 30px;
+    height: 600px;
+}

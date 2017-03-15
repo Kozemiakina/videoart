@@ -1,0 +1,136 @@
+/**
+Studio
+ */
+.studio{
+    height: 250px;
+    font-size: 24px;
+    color: #00adef;
+}
+.studio span{
+    display: inline-block;
+    width: 95%;
+    color: #4e5653;
+    text-transform: uppercase;
+}
+.studio__context{
+    display: inline-block;
+    width: 47%;
+    float: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.studio__context:last-child{
+    float: right;
+}
+.studio__context span{
+    width: 100%;
+    text-transform: none;
+    margin-top: 20px;
+    text-align: justify;
+}
+/**
+Why
+ */
+.why{
+    padding-top: 50px;
+    font-size: 24px;
+    color: #00adef;
+    height: 375px;
+}
+.why span{
+    display: inline-block;
+    width: 95%;
+    color: #4e5653;
+    text-transform: uppercase;
+}
+.why_context{
+    display: inline-block;
+    float: left;
+    width: 18%;
+    margin-top: 30px;
+    text-transform: none;
+    font-size: 14px;
+    color: #4e5653;
+    margin-right: 25px;
+    text-align: justify;
+}
+.why_context:last-child{
+    margin-right: 0;
+}
+.why_context span{
+    text-transform: none;
+    font-size: 14px;
+}
+.why_context img:first-child{
+    max-width: 185px;
+    margin: 0 10px 30px;
+}
+/**
+Command
+ */
+.command{
+    padding-top: 60px;
+    font-size: 24px;
+    color: #00adef;
+    height: 750px;
+}
+.command span{
+    display: inline-block;
+    width: 95%;
+    color: #4e5653;
+    text-transform: uppercase;
+}
+.command_context,.command_context__right{
+    margin-top: 35px;
+    display: inline-block;
+    float: left;
+    width: 48%;
+    font-size: 14px;
+    color: #4e5653;
+    text-align: justify;
+}
+.command_context__right{
+    float: right;
+}
+.command__flower,.command__flower__right{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+.command__flower__right{
+    float: right;
+    width: 48%;
+}
+.command__flower__context,.command__flower__context__middle{
+
+}
+.command__flower__context span,.command__flower__context__middle span{
+    display: inline-block;
+    width: 170px;
+    text-transform: none;
+    font-size: 14pt;
+    vertical-align: top;
+    margin-top: 65px;
+    margin-left: 150px;
+    margin-right: 25px;
+}
+.command__flower__context__middle span{
+    margin-left: 0;
+}
+.command__flower__right .command__flower__context span{
+    margin-left: 25px;
+}
+.command__flower__right .command__flower__context__middle img{
+    margin-left: 140px;
+}
+.command__flower__right .command__flower__context__middle span{
+    margin-left: 25px;
+    margin-right: 0;
+}
+/**
+Count
+ */
+.count{
+    padding-bottom: 130px;
+}
